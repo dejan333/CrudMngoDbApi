@@ -1,12 +1,18 @@
-const mongoose = require('mongoose')
+// const mongoose = require('mongoose')
 
-const crudSchema = new mongoose.Schema({
-  title:{
-    type: String,
-    trim:true,
-    lowercase:true
-  },
-  content:String
-})
 
-module.exports =new mongoose.model('Crud', crudSchema);
+// const itemSchema = new mongoose.Schema({
+//   name: String
+// })
+
+
+
+// const listSchema = new mongoose.Schema({
+//   name: String,
+//   items : [itemSchema]
+// })
+
+// module.exports = new mongoose.model('Item', itemSchema);
+// module.exports = new mongoose.model('List', listSchema);
+
+
